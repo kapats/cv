@@ -1,0 +1,150 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{874200}
+
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\name{Karol Szlachta}
+\tagline{DevOps Engineer}
+\photo{4cm}{photo.png}
+
+\personalinfo{
+  \email{karol.szlachta@gmail.com}
+  \phone{+49 175 4526938}
+  \mailaddress{Carl-von-Ossietzky-Str 11,  06114 Halle (Saale)}
+}
+
+\newcommand{\mkspace}{\vspace{\baselineskip}}
+
+\begin{document}
+
+\makecvheader
+\cvsection{Experience}
+
+\cvevent{Platform Engineer}{ProAlpha}{Sep 2022 -- present}{Weilerbach/Remote}
+\begin{itemize}
+  \item Developing custom Terraform modules
+  \item Developing custom Helm charts
+  \item Developing custom backup Python code for Cloud resources
+  \item EKS maintenance
+  \item Creating Ansible modules, roles and playbooks for Linux and Windows hosts
+  \item Creating GitOps oriented platform for Ansible code execution
+  \item Building AWS-based cloud platform with IaC approach
+  \item Developing automation tools for Ansible testing with AWS
+  \item Providing assistance and training to Operations teams
+  \item Creating backup and restore processes
+  \item Initiating improvements in the field of monitoring (migration to OTEL solution)
+\end{itemize}
+
+\divider
+
+\cvevent{DevOps Engineer}{Datameer GmbH}{Feb 2021 -- August 2022}{Halle (Saale)}
+\begin{itemize}
+  \item Deploying and managing AWS cloud infrastructure, \
+    mainly EKS and other required components (VPC, RDS Postgres) \
+    with IaC solutions (Cloudposse Terraform)
+  \item Developing custom Terraform Modules
+  \item Developing custom Helm charts
+  \item Kubernetes administration -- mainly using ArgoCD and Cloudposse tooling
+  \item Datadog configuration (K8s cluster agents, dashboards, monitors, \
+    developing custom checks) and monitoring
+  \item CI/CD configuration (GitHub actions)
+\end{itemize}
+\divider
+
+\cvevent{System Engineer}{360dialog GmbH}{Aug 2020 -- Jan 2021}{Berlin/Remote}
+\begin{itemize}
+  \item Deployments and management of the GKE (Google Kubernetes Engine) and other \
+    cloud components (mainly CloudSQL and Cloud Functions) using custom Terraform modules
+  \item Business application management and architectural improvements
+  \item Developing scripts that automize daily workflows
+\end{itemize}
+\divider
+
+\cvevent{System Operations Engineer}{Datameer GmbH}{Jan 2020 -- May 2020}{Halle (Saale)}
+\begin{itemize}
+  \item Administration of the on-premise server infrastructure
+  \item AWS administration
+  \item User administration
+\end{itemize}
+\divider
+
+\cvevent{Resolution Manager}{Dell GmbH}{Jan 2013 -- Jan 2020}{Halle (Saale)}
+\begin{itemize}
+  \item Resolving most complex technical issues related to the Dell EMC \
+    enterprise products (servers and storage solutions)
+  \item Coordinating communication in the escalation process between engineering teams, \ 
+    business teams, and the customer
+  \item Identifying process gaps and initiating CLCA
+\end{itemize}
+\divider
+
+\cvevent{Technical Mentor}{Dell GmbH}{Feb 2012 -- Dec 2012}{Halle (Saale)}
+\begin{itemize}
+  \item Guiding the Dell enterprise support engineers
+  \item Creating documentation
+  \item Providing technical training
+\end{itemize}
+\divider
+
+\cvevent{Enterprise Technical Support Engineer}{Dell GmbH}{Oct 2010 -- Jan 2012}{Halle (Saale)}
+\begin{itemize}
+  \item Resolving issues related to Dell Server and Storage products
+\end{itemize}
+\divider
+
+\cvevent{Solaris Support Engineer}{Capgemini}{May 2008 -- Sep 2010}{Katowice (Poland)}
+\begin{itemize}
+  \item Resolving issues related to Sun Solaris OS and Sun SPARC servers
+\end{itemize}
+
+\cvsection{Education}
+
+\cvevent{Bachelor of Science}{Uniwersytet Śląski}{}{Katowice}
+
+\cvsection{Certifications}
+\cvevent{Red Hat Certified System Adminstrator}{}{}{}
+\cvevent{Red Hat Certified System Engineer}{}{}{}
+\cvevent{VMWare Certified System Adminstrator}{}{}{}
+\cvevent{Solaris Certified System Administrator}{}{}{}
+\cvevent{SUSE Certified System Administrator}{}{}{}
+\cvevent{AWS Certified System Architect}{}{}{}
+
+\cvsection{Skills}
+
+\cvskill{Linux Administration}{5}
+\mkspace
+\cvskill{Kubernetes}{5}
+\mkspace
+\cvskill{AWS}{4}
+\mkspace
+\cvskill{Python}{4}
+\mkspace
+\cvskill{Bash scripting}{4}
+\mkspace
+\cvskill{Javascript/Typescript/Angular}{2}
+\mkspace
+\cvskill{Golang}{2}
+\mkspace
+\cvskill{PostrgreSQL/MySQL}{3}
+\mkspace
+\cvskill{Terraform}{5}
+\mkspace
+\cvskill{Helm charts}{5}
+\end{document}
