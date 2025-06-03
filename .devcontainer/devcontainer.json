@@ -8,7 +8,7 @@
 	// 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 	// 	"dockerfile": "../Dockerfile"
 	// },
-	"image": "kapats/cv:1.1",
+	"image": "docker.io/kapats/cv:1.1",
 	"remoteUser": "latex",
 	"customizations": {
 		"vscode": {
